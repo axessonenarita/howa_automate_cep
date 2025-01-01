@@ -1,84 +1,84 @@
 <img src="src/js/assets/bolt-cep.svg" alt="Bolt CEP" title="Bolt CEP" width="400" />
 
-A lightning-fast boilerplate for building Adobe CEP Extensions in React, Vue, or Svelte built on Vite + TypeScript + Sass
+Adobe CEP 拡張機能を React、Vue、または Svelte で構築するための、Vite + TypeScript + Sass を基盤とした超高速ボイラープレート
 
 ![npm](https://img.shields.io/npm/v/bolt-cep)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/hyperbrew/bolt-cep/blob/master/LICENSE)
 [![Chat](https://img.shields.io/badge/chat-discord-7289da.svg)](https://discord.gg/PC3EvvuRbc)
 
-## Features
+## 特徴
 
-- Lightning Fast Hot Module Replacement (HMR)
-- Write Modern ES6 in both the JavaScript and ExtendScript layers
-- Type-safe ExtendScript with Types-for-Adobe
-- End-to-End Type Safety with evalTS()
-- Easily configure in cep.config.ts
-- Setup for single or multi-panel extensions
-- Comes with multi-host-app configuration
-- Optimized Build Size
-- Easy Publish to ZXP for Distribution
-- Easy Package to ZIP archive with sidecar assets
-- GitHub Actions ready-to-go for ZXP Releases
+- 超高速ホットモジュールリプレースメント（HMR）
+- JavaScript と ExtendScript レイヤーの両方でモダンな ES6 を記述
+- Types-for-Adobe を使用した型安全な ExtendScript
+- evalTS()によるエンドツーエンドの型安全性
+- cep.config.ts で簡単に設定可能
+- 単一またはマルチパネル拡張機能のセットアップ
+- 複数のホストアプリケーション設定をサポート
+- 最適化されたビルドサイズ
+- 配布用に ZXP への簡単な公開
+- サイドカーアセットを含む ZIP アーカイブへの簡単なパッケージ化
+- ZXP リリース用の GitHub Actions がすぐに使用可能
 
-_Full Blog Post:_ https://hyperbrew.co/blog/bolt-cep-build-extensions-faster/
+_詳細なブログ投稿:_ https://hyperbrew.co/blog/bolt-cep-build-extensions-faster/
 
-### Dev Requirements
+### 開発要件
 
-- [Node.js](https://nodejs.org/en) 16 or later
-- [Yarn](https://yarnpkg.com/getting-started/install) 1.x.x aka classic (ensure by running `yarn set version classic`)
+- [Node.js](https://nodejs.org/en) 16 以上
+- [Yarn](https://yarnpkg.com/getting-started/install) 1.x.x（クラシック）（`yarn set version classic`を実行して確認）
 
-### Compatibility
+### 互換性
 
-- [Adobe CC Apps](https://www.adobe.com/creativecloud/desktop-app.html) version 2022 or later
+- [Adobe CC Apps](https://www.adobe.com/creativecloud/desktop-app.html) 2022 以降のバージョン
 - Windows & Mac Intel
-- Mac Arm64 (M1 / M2) require special setup ([more details](#misc-troubleshooting))
+- Mac Arm64 (M1 / M2) は特別なセットアップが必要（[詳細はこちら](#misc-troubleshooting)）
 
 ---
 
-## Backers
+## 支援者
 
-Huge thanks to our backers who have made this project possible!
+このプロジェクトを可能にしてくれた支援者の皆様に大きな感謝を！
 
 <a href="https://battleaxe.co/" target="_blank">
 <img src="https://battleaxe.dev/servile/logotype_lightgrey.png" alt="Battle Axe" title="Battle Axe" width="200" /></a>
 
-If you're interested in supporting this open-source project, please [contact the Hyper Brew team](https://hyperbrew.co/contact/).
+このオープンソースプロジェクトを支援したい方は、[Hyper Brew チームにご連絡ください](https://hyperbrew.co/contact/)。
 
 ---
 
-## Tools Built with Bolt CEP
+## Bolt CEP で構築されたツール
 
-Tools like Rubberhose 3, Klutz GPT, Brevity, and more are powered by Bolt CEP! Check out the full library of tools built with Bolt CEP:
+Rubberhose 3、Klutz GPT、Brevity などのツールは Bolt CEP によって動作しています！Bolt CEP で構築されたツールの完全なライブラリをご覧ください：
 
-[Built with Bolt CEP](https://hyperbrew.co/resources/bolt-cep/)
+[Bolt CEP で構築されたツール](https://hyperbrew.co/resources/bolt-cep/)
 
 <img src="./built-with-bolt-cep.png" alt="Battle Axe" title="Battle Axe" style="border-radius:5px" width="900" />
 
 ---
 
-## Support
+## サポート
 
-### Free Support 🙌
+### 無料サポート 🙌
 
-If you have questions with getting started using Bolt CEP, feel free to ask and discuss in our free Discord community [Discord Community](https://discord.gg/PC3EvvuRbc).
+Bolt CEP の使用を開始する際に質問がある場合は、無料の Discord コミュニティでお気軽に質問し、議論してください。[Discord Community](https://discord.gg/PC3EvvuRbc)
 
-### Paid Priority Support 🥇
+### 有料優先サポート 🥇
 
-If your team is interested in paid consulting or development with Bolt CEP, please [contact the Hyper Brew team](https://hyperbrew.co/contact/). More info on our [Adobe Plugin Development & Consulting Services](https://hyperbrew.co/landings/boost-development)
+Bolt CEP を使用したコンサルティングや開発に興味があるチームは、[Hyper Brew チームにご連絡ください](https://hyperbrew.co/contact/)。詳細は[Adobe プラグイン開発とコンサルティングサービス](https://hyperbrew.co/landings/boost-development)をご覧ください。
 
 ---
 
-## Can I use Bolt CEP in my free or commercial project?
+## Bolt CEP を無料または商用プロジェクトで使用できますか？
 
-Yes! Bolt CEP is **100% free and open source**, being released under the MIT license with no attribution required. This means you are free to use it in your free or commercial projects.
+はい！Bolt CEP は**100%無料でオープンソース**であり、MIT ライセンスの下でリリースされています。帰属は必要ありません。これは、無料または商用プロジェクトで自由に使用できることを意味します。
 
-We would greatly appreciate it if you could provide a link back to this tool's info page in your product's site or about page:
+製品のサイトやアバウトページにこのツールの情報ページへのリンクを提供していただけると大変ありがたいです：
 
-Bolt CEP Info Page Link: https://hyperbrew.co/resources/bolt-cep
+Bolt CEP 情報ページリンク: https://hyperbrew.co/resources/bolt-cep
 
-**Built with Bolt CEP** button graphics:
+**Bolt CEP で構築された**ボタンのグラフィック：
 
-**PNG Files**
+**PNG ファイル**
 
 <div style="display:flex;gap:1rem;">
 <a href="./src/js/assets/built-with-bolt-cep/Built_With_BOLT_CEP_Logo_White_V01.png" target="_blank">
@@ -89,7 +89,7 @@ Bolt CEP Info Page Link: https://hyperbrew.co/resources/bolt-cep
 
 </div>
 
-**SVG Files**
+**SVG ファイル**
 
 <div style="display:flex;gap:1rem;">
 <a href="src/js/assets/built-with-bolt-cep/Built_With_BOLT_CEP_Logo_White_V01.svg" target="_blank">
@@ -99,7 +99,7 @@ Bolt CEP Info Page Link: https://hyperbrew.co/resources/bolt-cep
 <img src="src/js/assets/built-with-bolt-cep/Built_With_BOLT_CEP_Logo_Black_V01.svg" width="200" /></a>
 </div>
 
-## Quick Start
+## クイックスタート
 
 <img src="src/js/assets/create-bolt-cep.jpg" alt="Bolt CEP">
 
@@ -107,60 +107,60 @@ Bolt CEP Info Page Link: https://hyperbrew.co/resources/bolt-cep
 
 `yarn create bolt-cep`
 
-- Create Extension
+- 拡張機能の作成
 
 `cd myApp`
 
-- CD into Directory
+- ディレクトリに移動
 
 `yarn`
 
-- Installs all dependencies
+- すべての依存関係をインストール
 
 `yarn build`
 
-- Runs initial build
-- Creates cep folder structure
-- Creates symlink to extensions folder
+- 初期ビルドを実行
+- cep フォルダ構造を作成
+- 拡張機能フォルダへのシンボリックリンクを作成
 
 `yarn dev`
 
-- Runs in dev mode with HMR Hot-reloading.
-- Both JS and ExtendScript folders re-build on changes
-- Viewable in browser via localhost:3000/panel/
-  - (e.g. http://localhost:3000/main/, http://localhost:3000/settings/, etc. (see [Panel Structure](#cep-panel-structure) to set up multiple panels)))
+- HMR ホットリロードを使用して開発モードで実行
+- JS と ExtendScript フォルダの両方が変更時に再ビルド
+- ブラウザで localhost:3000/panel/で表示可能
+  - (例: http://localhost:3000/main/, http://localhost:3000/settings/など（複数のパネルを設定するには[パネル構造](#cep-panel-structure)を参照）)
 
 `yarn serve`
 
-- Serve files after running `yarn build`
-- Viewable in browser via localhost:5000/panel/
-  - (e.g. http://localhost:5000/main/, http://localhost:5000/settings/, etc. (see [Panel Structure](#cep-panel-structure) to set up multiple panels)))
+- `yarn build`を実行した後にファイルを提供
+- ブラウザで localhost:5000/panel/で表示可能
+  - (例: http://localhost:5000/main/, http://localhost:5000/settings/など（複数のパネルを設定するには[パネル構造](#cep-panel-structure)を参照）)
 
 `yarn zxp`
 
-- Builds and bundles your project into a zxp for publishing in the `dist/zxp` folder
+- プロジェクトをビルドして zxp にバンドルし、`dist/zxp`フォルダに公開
 
 `yarn zip`
 
-- Bundles your zxp and specified assets to a zip archive in the `dist/zip` folder
+- zxp と指定されたアセットを ZIP アーカイブにバンドルし、`dist/zip`フォルダに保存
 
 ---
 
-## Config
+## 設定
 
-Update your CEP build and package settings in `cep.config.ts` safely typed
+`cep.config.ts`で CEP のビルドとパッケージ設定を安全に更新
 
-Start building your app in `src/js/main/index(.tsx or .vue or .svelte)`
+`src/js/main/index(.tsx or .vue or .svelte)`でアプリの構築を開始
 
-Write ExtendScript code in `src/jsx/main.ts`
+`src/jsx/main.ts`で ExtendScript コードを記述
 
 ---
 
-## CEP Panel Structure
+## CEP パネル構造
 
-Each panel is treated as it's own page, with shared code for efficiency. The Boilerplate currently comes with 2 panels, `main` and `settings`. These are configured in the `cep.config.ts`.
+各パネルは独自のページとして扱われ、効率のために共有コードが使用されます。このボイラープレートには現在、`main`と`settings`の 2 つのパネルが含まれています。これらは`cep.config.ts`で設定されています。
 
-Each panel can be edited in their respective folders:
+各パネルはそれぞれのフォルダで編集できます：
 
 ```
 src
@@ -173,21 +173,21 @@ src
         └─ index.tsx
 ```
 
-To add panels, add an item to the panels object in `cep.config.ts`, and duplicate the folder structure and adjust as needed.
+パネルを追加するには、`cep.config.ts`のパネルオブジェクトに項目を追加し、フォルダ構造を複製して必要に応じて調整します。
 
 ---
 
 ## ExtendScript
 
-ExtendScript can be written in ES6 and will be compiled down to a single ES3 file for compatibility.
+ExtendScript は ES6 で記述でき、互換性のために単一の ES3 ファイルにコンパイルされます。
 
-JSON 2 is included by default, and any external JS libraries added with the include directive will be bundled as well:
+JSON 2 はデフォルトで含まれており、include ディレクティブで追加された外部 JS ライブラリもバンドルされます：
 
 ```js
 // @include './lib/library.js'
 ```
 
-App-specific code is split into modules for type-safe development by the application's name as seen in the `index.ts`.
+アプリ固有のコードは、`index.ts`でアプリケーション名として見られるモジュールに分割され、型安全な開発が可能です。
 
 ```
 aftereffects >> aeft/aeft.ts
@@ -195,24 +195,23 @@ illustrator >> ilst/ilst.ts
 animate >> anim/anim.ts
 ```
 
-Write your app-specific functions in each of these separate modules, and they will be required per each application.
+これらの個別のモジュールにアプリ固有の関数を記述し、各アプリケーションごとに必要とされます。
 
-To add support for additional host apps:
+追加のホストアプリをサポートするには：
 
-- Add additional app module files (aeft.ts, anim.ts, etc).
-- Extend the main `switch()` in `scr/jsx/index.ts` with your additional.
-- Add the host to your `cep.config.ts` file.
+- 追加のアプリモジュールファイル（aeft.ts、anim.ts など）を追加します。
+- `scr/jsx/index.ts`のメイン`switch()`に追加します。
+- `cep.config.ts`ファイルにホストを追加します。
 
 ---
 
-## Calling ExtendScript from CEP JavaScript
+## CEP JavaScript から ExtendScript を呼び出す
 
-All ExtendScript function are appended to your panel's namespace in the background to avoid namespace clashes when using `evalTS()` and `evalES()`.
+すべての ExtendScript 関数は、`evalTS()`と`evalES()`を使用する際に名前空間の衝突を避けるために、バックグラウンドでパネルの名前空間に追加されます。
 
-We have now introduced a new and improved end-to-end type-safe way to interact with ExtendScript from CEP using `evalTS()`. This function dynamically infers types from
-ExtendScript functions and handles both stringifying and parsing of the results so your developer interaction can be as simple as possible.
+`evalTS()`を使用して CEP から ExtendScript と対話するための新しく改善されたエンドツーエンドの型安全な方法を導入しました。この関数は、ExtendScript 関数から動的に型を推論し、結果の文字列化と解析を処理するため、開発者の対話が可能な限りシンプルになります。
 
-As demonstrated in `main.tsx`, your ExtendScript functions can be called with `evalTS()` by passing the name of the function, followed by the arguments.
+`main.tsx`で示されているように、ExtendScript 関数は関数名と引数を渡すことで`evalTS()`で呼び出すことができます。
 
 CEP
 
@@ -242,13 +241,13 @@ export const myFuncObj = (obj: { height: number, width: number }) => {
 };
 ```
 
-For any existing Bolt CEP projects, rest assured that the legacy `evalES()` function remains in place as usual as demonstrated in `main.tsx`.
+既存の Bolt CEP プロジェクトでは、`main.tsx`で示されているように、従来の`evalES()`関数が通常通り残っています。
 
 ```js
 evalES(`helloWorld("${csi.getApplicationID()}")`);
 ```
 
-You will also want to use this function for calling ExtendScript functions in the global scope directly, by passing `true` to the second parameter:
+また、グローバルスコープで ExtendScript 関数を直接呼び出す場合は、2 番目のパラメータに`true`を渡してこの関数を使用することもできます：
 
 ```js
 evalES(
@@ -259,17 +258,17 @@ evalES(
 
 ---
 
-## Calling CEP JavaScript from ExtendScript
+## ExtendScript から CEP JavaScript を呼び出す
 
-For certain situations such as hooking into event listeners or sending updates during long functions, it makes sense to trigger events from the ExtendScript environment to the JavaScript environment. This can be done with `listenTS()` and `dispatchTS()`.
+イベントリスナーにフックしたり、長い関数の間に更新を送信したりする特定の状況では、ExtendScript 環境から JavaScript 環境にイベントをトリガーすることが理にかなっています。これは`listenTS()`と`dispatchTS()`を使用して行うことができます。
 
-Using this method accounts for:
+この方法を使用することで、以下のことが考慮されます：
 
-- Setting up a scoped listener on the JS side for the CSEvent
-- Setting up PlugPlug CSEvent event on ExtendScript side
-- Ensuring End-to-End Type-Safety for the event
+- CSEvent のための JS 側でのスコープされたリスナーの設定
+- ExtendScript 側での PlugPlug CSEvent イベントの設定
+- イベントのエンドツーエンドの型安全性の確保
 
-### 1. Declare the Event Type in EventTS in shared/universals.ts
+### 1. shared/universals.ts の EventTS でイベントタイプを宣言
 
 ```js
 export type EventTS = {
@@ -277,11 +276,11 @@ export type EventTS = {
     oneValue: string,
     anotherValue: number,
   },
-  // [... other events]
+  // [... 他のイベント]
 };
 ```
 
-### 2. Listen in CEP JavaScript
+### 2. CEP JavaScript でリッスン
 
 ```js
 import { listenTS } from "../lib/utils/bolt";
@@ -292,7 +291,7 @@ listenTS("myCustomEvent", (data) => {
 });
 ```
 
-### 3. Dispatch in ExtendScript
+### 3. ExtendScript でディスパッチ
 
 ```js
 import { dispatchTS } from "../utils/utils";
@@ -300,7 +299,7 @@ import { dispatchTS } from "../utils/utils";
 dispatchTS("myCustomEvent", { oneValue: "name", anotherValue: 20 });
 ```
 
-Alternatively, `dispatchTS()` can also be used in the same way from the CEP side to trigger events within or between CEP panels, just ensure you're importing the dispatchTS() function from the correct file within the `js` folder.
+また、`dispatchTS()`は CEP 側から同様に使用して、CEP パネル内または間でイベントをトリガーすることもできます。`js`フォルダ内の正しいファイルから dispatchTS()関数をインポートしていることを確認してください。
 
 ```js
 import { dispatchTS } from "../lib/utils/bolt";
@@ -310,40 +309,40 @@ dispatchTS("myCustomEvent", { oneValue: "name", anotherValue: 20 });
 
 ---
 
-## GitHub Actions ZXP Releases
+## GitHub Actions ZXP リリース
 
-This repo comes with a configured GitHub Action workflow to build a ZXP and add to the releases each time a git tag is added.
+このリポジトリには、git タグが追加されるたびに ZXP をビルドしてリリースに追加するための GitHub Action ワークフローが設定されています。
 
 ```
 git tag 1.0.0
 git push origin --tags
 ```
 
-Then your new build will be available under GitHub Releases.
+その後、新しいビルドが GitHub リリースで利用可能になります。
 
 ---
 
 ---
 
-## Copy Assets
+## アセットのコピー
 
-If you have assets that you would like copied without being affected by the bundler, you can add the optional `copyAssets:[]` array inside your cep.config.ts to include files or entire folders.
+バンドラーに影響されずにコピーしたいアセットがある場合は、`cep.config.ts`内のオプションの`copyAssets:[]`配列にファイルまたはフォルダ全体を追加できます。
 
 ```js
   copyAssets: ["public", "custom/my.jsx"],
 ```
 
-**Example:**
+**例：**
 
-Files placed in `src/public` will be copied to `dist/public` with config set to `copyAssets: ["public"]`.
-
----
+`src/public`に配置されたファイルは、`copyAssets: ["public"]`の設定で`dist/public`にコピーされます。
 
 ---
 
-## Copy Zip Assets
+---
 
-If you have assets that you would like copied with your zxp into a zip archive for delivery, you can add the optional `copyZipAssets:[]` array inside your cep.config.ts to include files or entire folders. A folder ending in "/\*" will copy the contents without the folder structure into the zip destination.
+## ZIP アセットのコピー
+
+zxp と一緒に ZIP アーカイブにコピーしたいアセットがある場合は、`cep.config.ts`内のオプションの`copyZipAssets:[]`配列にファイルまたはフォルダ全体を追加できます。フォルダの末尾に"/\*"を付けると、フォルダ構造なしで内容が ZIP の宛先にコピーされます。
 
 ```js
   copyZipAssets: ["instructions/*", "icons"],
@@ -351,14 +350,14 @@ If you have assets that you would like copied with your zxp into a zip archive f
 
 ---
 
-## Custom Ponyfills
+## カスタムポニーフィル
 
-Unlike Polyfills which modify the global prototype, Ponyfills replace functionality with custom methods. Built-in Ponyfills include:
+グローバルプロトタイプを変更するポリフィルとは異なり、ポニーフィルはカスタムメソッドで機能を置き換えます。組み込みのポニーフィルには以下が含まれます：
 
 - Object.freeze()
 - Array.isArray()
 
-You can add your own Ponyfils by passing them into the `jsxPonyfill()` function in `vite.es.config.ts`:
+独自のポニーフィルを追加するには、`vite.es.config.ts`の`jsxPonyfill()`関数に渡します：
 
 ```js
 jsxPonyfill([
@@ -370,25 +369,25 @@ jsxPonyfill([
 ]);
 ```
 
-If you have a common Ponyfill you feel should be built-in, create a ticket and we'll look into it.
+一般的なポニーフィルが組み込みにすべきだと感じた場合は、チケットを作成して検討します。
 
 ---
 
-## ExtendScript Scope
+## ExtendScript スコープ
 
-This boilerplate is flavored for a single JSX object attached to helper object `$` for all your panels to prevent pollution in the global namespace. If you prefer to include your own raw JSX, include it in the Copy Assets object (above), and add the optional scriptPath object to your cep.config.ts file.
+このボイラープレートは、すべてのパネルのグローバル名前空間の汚染を防ぐために、ヘルパーオブジェクト`$`にアタッチされた単一の JSX オブジェクト用にフレーバーされています。独自の生の JSX を含めたい場合は、上記のコピーアセットオブジェクトに含め、`cep.config.ts`ファイルにオプションの scriptPath オブジェクトを追加します。
 
 ```js
   panels: [
     {
       name: "main",
       scriptPath: "custom/index.jsx",
-      [...]
+      [...その他の設定]
     },
     {
       name: "settings",
       scriptPath: "custom/settings.jsx",
-      [...]
+      [...その他の設定]
     },
   ],
   copyAssets: ["custom"],
@@ -396,47 +395,47 @@ This boilerplate is flavored for a single JSX object attached to helper object `
 
 ---
 
-## Troubleshooting Modules
+## モジュールのトラブルシューティング
 
-Node.js Built-in modules can be imported from the `src/js/lib/node.ts` file.
+Node.js の組み込みモジュールは、`src/js/lib/node.ts`ファイルからインポートできます。
 
 ```js
 import { os, path, fs } from "../lib/node";
 ```
 
-To use 3rd party libraries, first attempt to use with the standard import syntax.
+サードパーティライブラリを使用するには、まず標準のインポート構文を使用してみてください。
 
 ```js
 import { FaBolt } from "react-icons/fa";
 ```
 
-If the import syntax fails (typically with modules that use the Node.js runtime) you can resort to the Node.js `require()` syntax,
+インポート構文が失敗した場合（通常は Node.js ランタイムを使用するモジュールで）、Node.js の`require()`構文を使用できます。
 
 ```js
 const unzipper = require("unzipper");
 ```
 
-The build system will detect any non-built-in Node.js modules using `require()` and copy them to the output `node_modules` folder, but if a package is missed, you can add it explicitly to the `installModules:[]` array inside your `cep.config.ts` file.
+ビルドシステムは、`require()`を使用する非組み込みの Node.js モジュールを検出して、出力`node_modules`フォルダにコピーしますが、パッケージが見逃された場合は、`cep.config.ts`ファイル内の`installModules:[]`配列に明示的に追加できます。
 
 ```js
   installModules: ["unzipper"],
 ```
 
-Also if they're Node.js-specific modules, it's best to place the requires inside functions so they are only required at runtime and don't break your panel when previewing in the browser.
+また、Node.js 固有のモジュールの場合、関数内に`require()`を配置して、実行時にのみ必要とされ、ブラウザでプレビューする際にパネルが壊れないようにするのが最善です。
 
 ---
 
-## A Note on Routers
+## ルーターに関する注意
 
-If you would like to set up a routing system like react-router, be aware that you'll have to make adjustments for CEP. React Router for instance bases the router path off of `window.location.pathname` which in the browser resolves to the page:
+react-router のようなルーティングシステムを設定したい場合は、CEP 用に調整が必要です。たとえば、React Router は`window.location.pathname`に基づいてルーターのパスを決定しますが、ブラウザではページに解決されます：
 
 `/main/index.html`
 
-yet in CEP context resolves to the full system path:
+しかし、CEP コンテキストでは完全なシステムパスに解決されます：
 
 `file:///C:/Users/Username/AppData/Roaming/Adobe/CEP/extensions/com.bolt.cep/main/index.html`
 
-To solve this, you'll need to adjust the router basename for each context, here is one way of accomplishing that with the panel named `main`:
+これを解決するには、各コンテキストに対してルーターのベース名を調整する必要があります。以下は、`main`という名前のパネルでこれを達成する方法の一例です：
 
 ```js
 const posix = (str: string) => str.replace(/\\/g, "/");
@@ -453,11 +452,11 @@ ReactDOM.render(
 );
 ```
 
-## Misc Troubleshooting
+## その他のトラブルシューティング
 
-**React Spectrum won't allow certain UI items to be clicked on MacOS**:
+**MacOS で特定の UI アイテムをクリックできない React Spectrum**：
 
-There is an ongoing bug with React Spectrum and other UI libraries on MacOS with clicking elements. To resolve this issue, run the helper function `enableSpectrum()` to resolve this issue on Mac.
+MacOS での React Spectrum や他の UI ライブラリでの要素のクリックに関する進行中のバグがあります。この問題を解決するには、Mac でこの問題を解決するためのヘルパー関数`enableSpectrum()`を実行します。
 
 `main.ts`
 
@@ -468,31 +467,35 @@ enableSpectrum();
 initBolt();
 ```
 
-**ZXPSignCmd Permissions issues on Mac**:
+**Mac での ZXPSignCmd の権限問題**：
 
-If you're getting permissions errors running ZXPSignCmd on the latest Mac releases, try a fresh clone. If that does't work, reset permissions for ZXPSignCmd by opening the directory `node_modules/vite-cep-plugin/lib/bin` and running `chmod 700 ./ZXPSignCmd`.
+最新の Mac リリースで ZXPSignCmd を実行する際に権限エラーが発生する場合は、新しいクローンを試してください。それでも解決しない場合は、`node_modules/vite-cep-plugin/lib/bin`ディレクトリを開き、`chmod 700 ./ZXPSignCmd`を実行して ZXPSignCmd の権限をリセットします。
 
-**Build Issues on Mac Arm64 Apple Silicon Machines (M1/M2/M3)**
+**Mac Arm64 Apple Silicon マシン（M1/M2/M3）でのビルド問題**
 
-Full blog post on [Setup ExtendScript Dev for Apple Silicon Macs](https://hyperbrew.co/blog/setup-extendscript-dev-for-apple-silicon/)
+[Apple Silicon Mac 用の ExtendScript 開発セットアップ](https://hyperbrew.co/blog/setup-extendscript-dev-for-apple-silicon/)に関する詳細なブログ投稿
 
-Short summary:
+短い要約：
 
-If you're experiencing issues building on your Apple Silicon Machine regarding the jsxbin package, it is a known issue since the jsxbin package does not currently contain a binary for Apple Silicon since Adobe has yet to release one ([issue details here](https://github.com/runegan/jsxbin/issues/29)). To solve this issue, you can either:
+Apple Silicon マシンでビルドに関する問題が発生している場合、jsxbin パッケージに Apple Silicon 用のバイナリが含まれていないため、既知の問題です（[問題の詳細はこちら](https://github.com/runegan/jsxbin/issues/29)）。この問題を解決するには、次のいずれかを行うことができます：
 
-- **A: Disable JSXBIN**
-  - In the `cep.config.ts` set `jsxBin: "off"` in the build and zxp portions.
-- **B: Run in x64 mode**
-  - Ensure a universal binary version of Node.js is installed (available on [nodejs.org](https://nodejs.org/en/download))
-  - Run your terminal in Rosetta mode, or additionally install the Intel build of VS Code.
-  - Delete and re-install your node_modules folder if you've already built it.
+- **A: JSXBIN を無効にする**
+  - `cep.config.ts`でビルドと zxp の部分に`jsxBin: "off"`を設定します。
+- **B: x64 モードで実行する**
+  - Node.js のユニバーサルバイナリバージョンをインストールする（[nodejs.org](https://nodejs.org/en/download)で入手可能）
+  - ターミナルを Rosetta モードで実行するか、Intel ビルドの VS Code を追加でインストールします。
+  - すでにビルドしている場合は、node_modules フォルダを削除して再インストールします。
 
-**Update a Bolt CEP Project** To update an existing Bolt CEP project to the the latest version, create a new Bolt CEP project with the same framework (React, Vue, Svelte), then compare and update the following files:
+**Bolt CEP プロジェクトの更新** 既存の Bolt CEP プロジェクトを最新バージョンに更新するには、同じフレームワーク（React、Vue、Svelte）で新しい Bolt CEP プロジェクトを作成し、次のファイルを比較して更新します：
 
-1. `package.json` - Update all dependencies and scripts ( `vite-cep-plugin` - usually contains the most frequent updates )
-2. `vite.config.ts` - Unless you've modified the vite config yourself, you can just copy the contents of the latest into yours.
-3. `vite.es.config.ts` - Like the previous config, unless you've modified it yourself, you can just copy the contents of the latest into yours.
-4. `cep.config.ts` - Check if any new properties have been added that don't exist in your config.
-5. `src/js/lib` - Update this entire folder.
-6. `src/jsx/index.ts` - Check if any new properties have been added that don't exist in your config.
-7. `src/shared/universals.d.ts` - Check if any new properties have been added that don't exist in your config.
+1. `package.json` - すべての依存関係とスクリプトを更新（`vite-cep-plugin` - 通常、最も頻繁に更新されます）
+2. `vite.config.ts` - 自分で vite 設定を変更していない限り、最新の内容をコピーするだけで済みます。
+3. `vite.es.config.ts` - 前の設定と同様に、自分で変更していない限り、最新の内容をコピーするだけで済みます。
+4. `cep.config.ts` - 自分の設定に存在しない新しいプロパティが追加されているか確認します。
+5. `src/js/lib` - このフォルダ全体を更新します。
+6. `src/jsx/index.ts` - 自分の設定に存在しない新しいプロパティが追加されているか確認します。
+7. `src/shared/universals.d.ts` - 自分の設定に存在しない新しいプロパティが追加されているか確認します。
+
+---
+
+以上が README.md の日本語訳です。何か他に質問があれば教えてください。
